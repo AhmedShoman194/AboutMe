@@ -1,0 +1,72 @@
+$color : red;
+
+%message {
+    background: url(background5.jpg) no-repeat center center fixed;
+}
+.backgroundimage
+{
+    @extend %message; 
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+@media only screen and (max-width: 1200px) {
+
+        #about
+        {
+            font-size: x-large;
+            margin-top: 13%;
+            margin-left: 20%;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    
+  }
+
+div > h1
+{
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+#me
+{
+    width: 280px; 
+    margin-left: 10%;  
+}
+
+p::selection {
+    color: $color;
+    background-color: yellow;
+}
+
+@media only screen and (min-width: 1201px) {
+.tot 
+{
+    #big_div 
+    {
+
+        #about
+        {
+            font-size: x-large;
+            margin-top: 13%;
+            margin-right: 2%;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    }
+}
+}
+#history
+{
+    font-size: x-large;
+    margin-right: 2%;
+}
+div.contacts
+{
+    text-align: center;
+    margin-top: 7%;
+}
